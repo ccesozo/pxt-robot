@@ -1,5 +1,5 @@
 /**
-* extended blocks for sozoRobot
+* extended blocks for CCE-robot
 */
 
 enum CarDirection {
