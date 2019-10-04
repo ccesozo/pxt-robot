@@ -3,13 +3,13 @@
 */
 
 enum CarDirection {
-    //% block="forward" enumval=0
+    //% block="前　進" enumval=0
     CarForward,
-    //% block="back" enumval=1
+    //% block="バック" enumval=1
     CarBackward,
-    //% block="turn right" enumval=2
+    //% block="右回転" enumval=2
     CarTurnRight,
-    //% block="turn left" enumval=3
+    //% block="左回転" enumval=3
     CarTurnLeft
 }
 
