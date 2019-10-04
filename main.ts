@@ -1,4 +1,4 @@
-/* /**
+/**
 * extended blocks for sozoRobot
 */
 
