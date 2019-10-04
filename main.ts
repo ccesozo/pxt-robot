@@ -27,7 +27,7 @@ namespace sozoRobot {
     * @param rightPin describe IO pin for right wheel, eg: AnalogPin.P2
     */
     //% blockId=CCE_hamabit_wheel_pin
-    //% block="set left wheel pin %leftPin| right wheel pin %rightPin"
+    //% block="左車輪のピン番号 %leftPin| 右車輪のピン番号 %rightPin"
     export function wheelPin(leftPin: AnalogPin, rightPin: AnalogPin): void {
         leftPinSet = leftPin
         rightPinSet = rightPin
@@ -39,7 +39,7 @@ namespace sozoRobot {
     * @param rightSpeed describe servo power from 0(min) to 100(max) here, eg: 15
     */
     //% blockId=CCE_hamabit_wheel_speed
-    //% block="set left wheel speed %leftSpeed| right wheel speed %rightSpeed"
+    //% block="左車輪のスピード %leftSpeed| 右車輪のスピード %rightSpeed"
     //% leftSpeed.min=0 leftSpeed.max=100
     //% rightSpeed.min=0 rightSpeed.max=100
     //% leftSpeed.defl=20
