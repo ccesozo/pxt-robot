@@ -22,7 +22,7 @@ namespace sozoRobot {
     let rightSpeedSet = 20
 
     /**
-    * 車輪のIOピンを指定する
+    * 車輪のIOピンを指定します。
     * @param leftPin describe IO pin for left wheel, eg: AnalogPin.P1
     * @param rightPin describe IO pin for right wheel, eg: AnalogPin.P2
     */
@@ -34,7 +34,7 @@ namespace sozoRobot {
     }
 
     /**
-    * 車輪のスピードを指定する（0~100）
+    * 車輪のスピードを指定（0~100）します。
     * @param leftSpeed describe servo power from 0(min) to 100(max) here, eg: 15
     * @param rightSpeed describe servo power from 0(min) to 100(max) here, eg: 15
     */
@@ -50,7 +50,7 @@ namespace sozoRobot {
     }
 
     /**
-    * 前進－停止はストップブロックを使用
+    * 前進します（停止するにはストップブロックが必要です）。
     */
     //% blockId=CCE_hamabit_servos_forward
     export function forward(powerCoefficient: number): void {
@@ -67,7 +67,7 @@ namespace sozoRobot {
     }
 
     /**
-    * バック－停止はストップブロックを使用
+    * バックします（停止するにはストップブロックが必要です）。
     */
     //% blockId=CCE_hamabit_servos_backward
     export function backward(powerCoefficient: number): void {
@@ -84,7 +84,7 @@ namespace sozoRobot {
     }
 
     /**
-    * 左回転－停止はストップブロックを使用
+    * 左回転します（停止するにはストップブロックが必要です）。
     */
     //% blockId=CCE_hamabit_servos_left
     export function left(powerCoefficient: number): void {
@@ -101,7 +101,7 @@ namespace sozoRobot {
     }
 
     /**
-    * 右回転－停止はストップブロックを使用
+    * 右回転します（停止するにはストップブロックが必要です）。
     */
     //% blockId=CCE_hamabit_servos_right
     export function right(powerCoefficient: number): void {
@@ -118,7 +118,7 @@ namespace sozoRobot {
     }
 
     /**
-    * 一定時間，前進したあとストップ
+    * ミリ秒で指定された時間，前進します。
     * @param duration describe forwarding time in millisecond, eg:500
     */
     //% blockId=CCE_hamabit_drive_forwards
@@ -132,7 +132,7 @@ namespace sozoRobot {
     }
 
     /**
-    * 一定時間，バックしたあとストップ
+    * ミリ秒で指定された時間，バックします。
     * @param duration describe backwarding time in millisecond, eg:500
     */
     //% blockID=CCE_hamabit_drive_backwards
@@ -146,7 +146,7 @@ namespace sozoRobot {
     }
 
     /**
-    * 一定時間，右回転したあとストップ
+    * ミリ秒で指定された時間，右回転します。
     * @param duration describe turning time in millisecond, eg:500
     */
     //% blockID=CCE_hamabit_drive_rightturns
@@ -160,7 +160,7 @@ namespace sozoRobot {
     }
 
     /**
-    * 一定時間，左回転したあとストップ
+    * ミリ秒で指定された時間，左回転します。
     * @param duration describe turning time in millisecond, eg:500
     */
     //% blockID=CCE_hamabit_drive_leftturns
@@ -174,7 +174,7 @@ namespace sozoRobot {
     }
 
     /**
-     * 連続走行
+     * 指定された方向に連続走行します（停止するにはストップブロックが必要です）。
      * @param describe directon to turn the car in, eg: CarDirection.CarForward
      */
     //% blockID=CCE_hamabit_drive_continuous
@@ -200,7 +200,7 @@ namespace sozoRobot {
     }
 
     /**
-    * ストップ
+    * ストップします。
     */
     //% blockID=CCE_hamabit_drive_stop
     //% block="ストップ"
@@ -210,7 +210,7 @@ namespace sozoRobot {
     }
 
     /**
-    * 指定出力で一定時間，前進したあとストップ
+    * ミリ秒で指定された時間，指定された出力で前進します。
     * @param duration in milliseconds to run the car, eg:500
     * @param powerAdjustment the factor of servo power adj　from 0 (min) to 200 (max), eg:80
     */
@@ -228,7 +228,7 @@ namespace sozoRobot {
     }
 
     /**
-    * 指定出力で一定時間，バックしたあとストップ
+    * ミリ秒で指定された時間，指定された出力でバックします。
     * @param duration in milliseconds to run the car, eg:500
     * @param powerAdjustment the factor of servo power adj　from 0 (min) to 200 (max), eg:80
     */
@@ -246,7 +246,7 @@ namespace sozoRobot {
     }
 
     /**
-    * 指定出力で一定時間，右回転したあとストップ
+    * ミリ秒で指定された時間，指定された出力で右回転します。
     * @param duration in milliseconds to run the car, eg:500
     * @param powerAdjustment the factor of servo power adj　from 0 (min) to 200 (max), eg:80
     */
@@ -264,7 +264,7 @@ namespace sozoRobot {
     }
 
     /**
-    * 指定出力で一定時間，左回転したあとストップ
+    * ミリ秒で指定された時間，指定された出力で左回転します。
     * @param duration in milliseconds to run the car, eg:500
     * @param powerAdjustment the factor of servo power adj　from 0 (min) to 200 (max), eg:80
     */
